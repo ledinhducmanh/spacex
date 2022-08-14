@@ -1,0 +1,39 @@
+/* PC low resolution */
+@media (min-width: 1020px) and (max-width: 1150px) {
+    .navbar-link:nth-child(6) , .navbar-link:nth-child(7) {
+        display: none;
+    }
+}
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+    .navbar-pc-add-menu, .copy-right {
+        display: block;
+    }
+    
+}
+/* Mobile */ 
+@media (max-width: 739px) {
+    #header {
+        padding: 0 25px;
+    }
+    .navbar-menu {
+        width: 280px;
+        padding: 50px 30px;
+    }
+    .section__item {
+        padding: 0 20px;
+    }
+    .section__heading {
+        font-size: 30px;
+    }
+    #footer {
+        text-align: center;
+    }
+    #footer a {
+        padding: 20px 0;
+    }
+}
