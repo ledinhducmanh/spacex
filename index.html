@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/responsive.css">
+    <!-- Animation Scrolling -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <div id="header">
@@ -114,9 +116,9 @@
     <div id="main">
         <div class="section" style="background-image: url('./assets/img/spaceX_img5.webp');">
             <div class="section__item">
-                <h4 class="section__sub-heading">UPCOMING LAUNCH</h4>
-                <h1 class="section__heading">STARLINK MISSION</h1>
-                <div class="section__btn">
+                <h4 data-aos="fade-up" class="section__sub-heading">UPCOMING LAUNCH</h4>
+                <h1 data-aos="fade-up" data-aos-delay="200" class="section__heading">STARLINK MISSION</h1>
+                <div data-aos="fade-up" data-aos-delay="300" class="section__btn">
                     <a href="#" class="section__btn--link">WATCH</a>
                 </div>
             </div>
@@ -126,9 +128,9 @@
         </div>
         <div class="section" style="background-image: url('./assets/img/spaceX_img.webp');">
             <div class="section__item">
-                <h4 class="section__sub-heading">RECENT LAUNCH</h4>
-                <h1 class="section__heading">STARLINK MISSION</h1>
-                <div class="section__btn">
+                <h4 data-aos="fade-up" class="section__sub-heading">RECENT LAUNCH</h4>
+                <h1 data-aos="fade-up" data-aos-delay="200" class="section__heading">STARLINK MISSION</h1>
+                <div data-aos="fade-up" data-aos-delay="300" class="section__btn">
                     <a href="#" class="section__btn--link">REWATCH</a>
                 </div>
             </div>
@@ -138,9 +140,9 @@
         </div>
         <div class="section" style="background-image: url('./assets/img/spaceX_img1.webp');">
             <div class="section__item">
-                <h4 class="section__sub-heading">RECENT LAUNCH</h4>
-                <h1 class="section__heading">CRS-25 MISSION</h1>
-                <div class="section__btn">
+                <h4 data-aos="fade-up" class="section__sub-heading">RECENT LAUNCH</h4>
+                <h1 data-aos="fade-up" data-aos-delay="200" class="section__heading">CRS-25 MISSION</h1>
+                <div data-aos="fade-up" data-aos-delay="300" class="section__btn">
                     <a href="#" class="section__btn--link">REWATCH</a>
                 </div>
             </div>
@@ -150,8 +152,8 @@
         </div>
         <div class="section" style="background-image: url('./assets/img/spaceX_img3.webp');">
             <div class="section__item">
-                <h1 class="section__heading">STARSHIP UPDATE</h1>
-                <div class="section__btn">
+                <h1 data-aos="fade-up" class="section__heading">STARSHIP UPDATE</h1>
+                <div data-aos="fade-up" data-aos-delay="200" class="section__btn">
                     <a href="#" class="section__btn--link">LEARN MORE</a>
                 </div>
             </div>
@@ -161,8 +163,8 @@
         </div>
         <div class="section" style="background-image: url('./assets/img/spaceX_img4.webp');">
             <div class="section__item">
-                <h1 class="section__heading">STARSHIP TO LAND NASA ASTRONAUTS ON THE MOON</h1>
-                <div class="section__btn">
+                <h1 data-aos="fade-up" class="section__heading">STARSHIP TO LAND NASA ASTRONAUTS ON THE MOON</h1>
+                <div data-aos="fade-up" data-aos-delay="200" class="section__btn">
                     <a href="#" class="section__btn--link">LEARN MORE</a>
                 </div>
             </div>
@@ -199,6 +201,10 @@
             }
             lastScrollTop = scrollTop;
         })
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
     </script>
 </body>
 </html>

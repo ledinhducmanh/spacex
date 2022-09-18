@@ -150,7 +150,6 @@ body {
     bottom: 15vh;
 }
 .section__sub-heading {
-    animation: sectionItem .4s ease-in;
     color: var(--white-color);
     font-weight: 100;
     font-size: 19px;
@@ -158,13 +157,11 @@ body {
     text-shadow: 0 0 2px #555;
 }
 .section__heading {
-    animation: sectionItem .7s ease;
     font-size: 45px;
     color: var(--white-color);
     text-shadow: 0 0 2px #555;
 }
 .section__btn {
-    animation: sectionItem .6s linear;
     margin-top: 30px;
     width: 170px;
 }
@@ -183,17 +180,6 @@ body {
     background-color: var(--white-color);
     color: black;
     transition: .3s;
-}
-@keyframes sectionItem {
-    from {
-        opacity: 0;
-        transform: translateY(150px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-
-    }
 }
 .croll-down {
     bottom: 9vh;
